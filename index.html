@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+  </head>
+  <body>
+    <img class="thumbnail" src="image.jpg" alt="image" />
+  </body>
+  <script>
+    var image = document.getElementsByClassName("thumbnail");
+    new simpleParallax(image, {
+      orientation: "right",
+      scale: 1.5
+    });
+  </script>
+</html>
